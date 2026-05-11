@@ -21,6 +21,11 @@ jobs:
           root_file: main.tex
           latexmk_use_xelatex: true
 
+      - name: Rename PDF with month
+        run: |
+          MONTH=$(date +'%b_%Y')
+          mv main.pdf "Joseph_Mullen_CV_${MONTH}.pdf"
+
       - name: Upload compiled PDF
         uses: actions/upload-artifact@v4
         with:
