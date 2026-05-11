@@ -1,0 +1,136 @@
+% -- Encoding UTF-8 without BOM
+% -- XeLaTeX => PDF (BIBER)
+
+\documentclass[print]{cv-style}          % Add 'print' as an option into the square bracket to remove colours from this template for printing. 
+                                    % Add 'espanol' as an option into the square bracket to change the date format of the Last Updated Text
+%%---
+\sethyphenation[variant=british]{english}{} % Add words between the {} to avoid them to be cut 
+\usepackage{enumitem}
+\usepackage{paralist}
+\usepackage{microtype} 
+\begin{document}
+
+\header{Joseph}{Mullen}          % Your name
+\lastupdated
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION  -- In the aside, each new line forces a line break
+%----------------------------------------------------------------------------------------
+
+\begin{aside}
+%
+\section{Contact}
+Bassingbourn,
+South Cambridgeshire,
+UK
+~
++44 7447911519
+~
+\href{mailto:joseph.m.p.mullen@gmail.com}{joseph.m.p.mullen\\@gmail.com}
+~
+\href{https://www.linkedin.com/in/joseph-mullen-9112a44b/}{LinkedIn}
+~
+\href{https://scholar.google.com/citations?user=bIkPW0YAAAAJ&hl=en}{Google Scholar}
+%
+\section{Skills}\\Ontologies \& Data Harmonization, Data Analysis \& Management, FAIR Principles, AI, Machine Learning, GenAI, LLMs, Knowledge Graphs, Text Analytics, Semantic Search, Leadership \& Strategy, Teamwork \& Problem Solving, Customer-Centric Approach, Life Sciences \& Drug Discovery
+\section{Technical} \\Java,
+Python, SQL, Cypher, R, AWS Services, Docker, Git
+\section{Interests}\\(GenAI) podcasts, Golf, Cycling, Running, Travel, Learning Piano
+%
+\end{aside}
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Career Objective}
+\vspace{-0.3cm}
+Driven and results-focused professional with over 10 years experience helping pharma at various stages in their digital journey unlock the potential of their data. Driven solutions that operationalsie scientific knowledge through the combination of foundational ontology-based technologies with SoTA components such as GenAI. Skilled in technical and scientific leadership, with high commercial acumen, now seeking new opportunities to push innovation and make a real impact.
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\input{current_role}
+\input{experience}
+\begin{entrylist}
+\entry
+  {2017--2020}
+  {SciBite Ltd}
+  {Cambridge, UK}
+  {\jobtitle{Senior Data Scientist}\\
+  As part of the Data Science team, developed and delivered bespoke data management solutions using SciBite's semantic enrichment technologies and other technologies. One of first projects involved the development of a machine learning system to auto classify documents inherited as part of an acquisition and received a Bio-IT World Best Practices Award Honorable Mention \href{https://www.bio-itworld.com/news/2018/08/08/a-new-machine-learning-approach-to-document-classification-a-pfizer-scibite-collaboration}{[LINK]}. Later managed a small team, overseeing customer projects from scoping to delivery, ensuring successful implementation of solutions.} 
+%------------------------------------------------
+\entry
+  {2016--2017}
+  {Prozomix Ltd}
+  {Northumberland, UK}
+  {\jobtitle{Senior Bioinformatician}\\
+  As a Research Assistant at Newcastle University in collaboration with Prozomix, focused on developing computational workflows for automated analysis of metagenomic data to identify putative enzymes, with an emphasis on KREDs.} 
+%------------------------------------------------
+\entry
+  {2014}
+  {GlaxoSmithKline, Computational Biology Dept.}
+  {Stevenage, UK}
+  {\jobtitle{Industrial placement}\\ 
+  Completed a 3-month industrial placement as part of PhD, within the Computational Biology Department at GSK, under my industrial supervisor. Also spent time working closely with the drug repositioning team in Philadelphia, USA.} 
+\end{entrylist}
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{entrylist}
+\entry
+{2012--2016}
+{PhD {\normalfont Computing Science}}
+{University of Newcastle upon Tyne}
+{\jobtitle{Systems approaches to drug repositioning}\\
+PhD project jointly funded by EPSRC and GSK, focused on developing computational approaches to drug repositioning. Key work involved creating knowledge graphs through data harmonization and developing novel data mining algorithms using graph theory methods.\\
+\href{https://theses.ncl.ac.uk/jspui/handle/10443/3806}{[THESIS]}
+}
+%------------------------------------------------
+\entry
+{2011--2012}
+{MSc {\normalfont Bioinformatics \$ Comp Systems Bio} [distinction]}
+{University of Newcastle upon Tyne}
+{\jobtitle{Characterizing phenotypic effects of closely related bacterial strains} \\Research project involved analysing how genotypic mutations (SNPs) can effect phenotype in different strains of \emph{B. subtilis}, using systems level modelling.}
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\entry
+{2006--2009}
+{BSc (Hons) {\normalfont Biological Sciences} [2.1]}
+{University of Newcastle upon Tyne}
+{\jobtitle{Investigating the expression of 5-HT3B in the spinal cord of diabetic rats} \\ Lab-based research project involved analysing the expression of the 5HT3B subunit of the 5-HT$_3$ receptor in the spinal cord of rats with streptozotocin induced type-2 diabetes. }
+%%} 
+{\vspace{-0.3cm}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	OTHER QUALIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+%------------------------------------------------
+\section{Selected Publications}
+
+\underline{Optimising biomedical relationship extraction with BioBERT}.\\ 
+    \textbf{Giles, O., Karlsson, S. Masiala, S. White, G. Cesareni, L. Perfetto, J. Mullen, M. Hughes, L. Harland \& J. Malone}\\
+    {\jobtitle{bioRxiv, 2020}} \href{https://www.biorxiv.org/content/10.1101/2020.09.01.277277v1.abstract}{[LINK]}
+
+\underline{An Integrated Data Driven Approach to Drug Repositioning Using Gene-Disease Associations}.\\ 
+    \textbf{Mullen, J., S. J. Cockell, P. Woollard, \& A Wipat}\\
+    {\jobtitle{PloS one 11.5 e0155811. 2016}} \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155811}{[LINK]}
+
+\underline{Mining integrated semantic networks for drug repositioning opportunities}.\\ 
+    \textbf{Mullen, J., S. J. Cockell, H. Tipney, P. Woollard, \& A Wipat}\\
+    {\jobtitle{PeerJ 4 e1558. 2016}} \href{https://peerj.com/articles/1558/}{[LINK]}
+
+% ---\underline{Are ontologies still relevant in the age of LLMs}? \textbf{\emph{BLOG}}, {\jobtitle{2023}} \href{https://scibite.com/news/are-ontologies-still-relevant-in-the-age-of-llms/}{[LINK]}
+
+\underline{SLMs: Beyond the hype }.\textbf{\textit{Interview in The AI Journal}}, {\jobtitle{2025}} \href{https://aijourn.com/slms-beyond-the-hype/}{[LINK]}
+
+\underline{Why scientific AI needs clear lines of sight — especially for fields like drug development} \\\textbf{\textit{Interview} in \textit{Drug Discovery \& Development}}, {\jobtitle{2024}} \href{https://www.drugdiscoverytrends.com/why-scientific-ai-needs-clear-lines-of-sight-especially-for-fields-like-drug-development/}{[LINK]}
+
+% ---\underline{What is Retrieval Augmented Generation and why is the data you feed it so important}? \textbf{\textit{BLOG}}, {\jobtitle{2023}} \href{https://scibite.com/news/what-is-retrieval-augmented-generation/}{[LINK]}
+
+\underline{10 tips when unlocking AI for R\&D} \textbf{\textit{WEBINAR}}, {\jobtitle{2024}} \href{https://www.elsevier.com/en-gb/connect/10-tips-when-unlocking-ai-for-r-and-d}{[LINK]}
+
+\underline{Ontologies \& LLMs: Democratising Scientific Data} \textbf{\textit{Pistoia Spring Conference}}, {\jobtitle{2024}} \href{https://marketing.pistoiaalliance.org/hubfs/2024%20Spring%20Conference%20Presentations/Joe%20Mullen.pdf}{[LINK]}
+
+\end{document}

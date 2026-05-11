@@ -1,0 +1,28 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Temporary/editor files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Build directories
+build/
+output/
+.vscode/
+
+# Optional: ignore locally compiled PDF
+main.pdf
